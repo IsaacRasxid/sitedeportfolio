@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corben&display=swap');
+
+*{margin: 0px;
+padding: 0px;
+}
+
+span{
+margin-left: -180px;
+font-size: 30px;
+font-family: 'Montserrat';
+position: relative;
+}
+
+input{
+font-size: 20px;
+font-family: 'Montserrat';
+width: 60%;
+height: 40px;
+margin: auto;
+display: block;
+border-radius: 10px;
+}
+
+input[type=text]{
+font-size: 20px;
+height: 110px;
+}
+
+a{text-decoration: none;}
+
+
+
+label{
+text-align: center;
+font-size: 50px;
+font-family: 'Montserrat';
+margin: auto;
+display: block;
+}
+
+.fontedomeucabecalho{
+font-family: 'Raleway';
+font-size: 70px;
+color: rgb(255, 255, 255);
+margin-bottom: 40px;
+}
+
+.botoesdasredessociais{
+padding: 10px;
+width: 55px;
+transition: all .5s;
+border: 10px solid transparent;
+}
+
+.botoesdasredessociais:hover{
+border: 5px solid #ffffff;
+border-radius: 50%;
+}
+
+.fotoprincipal{
+display: inline-block;
+margin: 0 0.5rem;
+animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
+animation-duration: 2s; /* don't forget to set a duration! */
+width: 350px;
+height: 350px;
+display: block;
+border-radius: 20px;
+box-shadow: -5px 10px 40px 12px rgba(0,0,0,0.6);
+margin: auto;
+margin-top: 4%;
+}
+
+.falandosobremim{
+margin: 0 0.5rem;
+animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
+animation-duration: 2s; /* don't forget to set a duration! */
+text-align: center;
+padding: 40px;
+margin-top: 10px;
+font-family: 'Montserrat';
+font-size: 30px;
+}
+
+.alinhandooquemsou{
+display: block;
+align-items: center;
+}
+
+.habilidades{
+background-color: #007BFF;
+padding: 20px;
+font-size: 32px; 
+text-align: center;
+color: white;
+margin-bottom: 5px;
+}
+
+.iconedasminhashabilidades{
+margin: 0 0.5rem;
+animation: fadeInDown; 
+animation-duration: 2s; 
+width: 200px;
+display: inline-block;
+margin-top: 4%;
+margin-left: 13%;
+margin-bottom: 5%;
+}
+
+.curriculo{
+    margin: 0 0.5rem;
+    animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    margin: auto;
+    display: block;
+    box-shadow: -5px 10px 40px 12px rgba(0,0,0,0.6);
+    border-radius: 10%;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    width: 350px;
+}
+
+.bordadosicones{
+border-radius: 5px;
+}
+
+.boot{ 
+height: 200px;
+}
+
+.css3{
+margin-left: -150px;
+}
+
+.projetos{
+margin-top: 50px;
+}
+
+.button {
+display: inline-block;
+padding: 20px 50px;
+font-size: 24px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+outline: none;
+color: #fff;
+background-color: #007BFF;
+border: none;
+border-radius: 15px;
+box-shadow: 0 5px rgb(160, 160, 160);
+display: block;
+margin: auto;
+margin-bottom: 1%;
+}
+
+.button:hover {
+background-color: #ffffff;
+color:#007BFF;}
+
+.button:active {
+background-color: #ffffff;
+box-shadow: 0 5px #667;
+transform: translateY(4px);
+}
+
+.gostoudoportfolio{
+margin-top: 4%;
+font-size: 3rem;
+font-family: 'Montserrat';
+text-align: center;
+}
+
+.card {
+margin: auto;
+display: block;
+border-radius: 10px;
+box-shadow: -5px 10px 40px 12px rgba(0,0,0,0.6);
+padding: 10px;
+width: 80%;
+height: 600px;
+margin-top: 70px;
+margin-bottom: 70px;
+}
+
+.email{
+font-size: 40px;
+margin-top: 15px;
+margin-bottom: 20px;
+}
+
+.mensagem{
+font-size: 40px;
+margin-top: 20px;
+}
+
+.msg{
+    margin-bottom: 1%;
+}
+
+.button1{
+display: inline-block;
+padding: 20px 50px;
+font-size: 24px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+outline: none;
+color: #fff;
+background-color: #007BFF;
+border: none;
+border-radius: 15px;
+box-shadow: 0 5px  #667;
+display: block;
+margin: auto;
+margin-bottom: 5%;
+margin-top: 2%;
+}
+
+.button1:hover {
+background-color: #ffffff;
+color:#007BFF;}
+
+.button1:active {
+background-color: #ffffff;
+box-shadow: 0 5px #667;
+transform: translateY(4px);
+}
+
+textarea{
+    border: 2px solid black;
+    width: 60%;
+    font-size: 20px;
+    border-radius: 8px;
+    margin: auto;
+    display: block;
+    min-height: 13rem;
+    resize: vertical;
+
+}
+
+@media (max-width: 768px){
+
+    .iconedasminhashabilidades{
+        margin-left: 25%;
+        margin-bottom: 10%;
+    }
+    
+    .htm{
+        padding-left: 5%;
+    }
+    
+    .habilidades{
+        font-size: 30px;
+    }
+    
+    .span{
+        margin-left: 20px;
+    }
+    
+    .btn{
+        margin-right: 21px;
+    }
+    
+    .curriculo{
+        margin: 0 0.5rem;
+        animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s; /* don't forget to set a duration! */
+        margin: auto;
+        display: block;
+        box-shadow: -5px 10px 40px 12px rgba(0,0,0,0.6);
+        border-radius: 10%;
+        margin-top: 4%;
+        margin-bottom: 5%;
+        width: 300px;
+    }
+
+    .gostoudoportfolio{
+        margin-top: 8%;
+        font-size: 2rem;
+        font-family: 'Montserrat';
+        text-align: center;
+        }
+
+    }
+    @media (min-width: 768px) and (max-width: 1024px){
+
+        .iconedasminhashabilidades{
+            margin-left: 18%;
+            margin-bottom: 10%;
+        }
+        
+        .jsc{ margin-left: 15%;}
+
+        .habilidades{
+            font-size: 30px;
+        }
+        
+        .curriculo{
+            margin: 0 0.5rem;
+            animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
+            animation-duration: 2s; /* don't forget to set a duration! */
+            margin: auto;
+            display: block;
+            box-shadow: -5px 10px 40px 12px rgba(0,0,0,0.6);
+            border-radius: 10%;
+            margin-top: 4%;
+            margin-bottom: 5%;
+            width: 300px;
+        }
+    
+        .gostoudoportfolio{
+            margin-top: 8%;
+            font-size: 25px;
+            font-family: 'Montserrat';
+            text-align: center;
+            }
+    
+        }
+    
+        @media (min-width: 820px) and (max-width: 1180px){
+
+            .iconedasminhashabilidades{
+                margin-left: 20%;
+                margin-bottom: 10%;
+            }
+            
+            .habilidades{
+                font-size: 30px;
+            }
+            
+            .span{
+                margin-left: 20px;
+            }
+            
+            .btn{
+                margin-right: 21px;
+            }
+            
+            .curriculo{
+                margin: 0 0.5rem;
+                animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
+                animation-duration: 2s; /* don't forget to set a duration! */
+                margin: auto;
+                display: block;
+                box-shadow: -5px 10px 40px 12px rgba(0,0,0,0.6);
+                border-radius: 10%;
+                margin-top: 4%;
+                margin-bottom: 5%;
+                width: 300px;
+            }
+        
+            .gostoudoportfolio{
+                margin-top: 8%;
+                font-size: 25px;
+                font-family: 'Montserrat';
+                text-align: center;
+                }
+        
+            }
