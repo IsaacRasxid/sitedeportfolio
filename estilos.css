@@ -312,6 +312,7 @@ textarea{
 }
     
     }
+
     @media (min-width: 768px) and (max-width: 1024px){
 
         .iconedasminhashabilidades{
@@ -344,18 +345,7 @@ textarea{
             font-family: 'Montserrat';
             text-align: center;
             }
-        
-        textarea{
-        border: 2px solid black;
-        width: 60%;
-        font-size: 20px;
-        border-radius: 8px;
-        margin: auto;
-        display: block;
-        min-height: 9rem;
-        resize: vertical;
-
-        }
+    
         }
     
         @media (min-width: 820px) and (max-width: 1180px){
