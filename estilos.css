@@ -244,17 +244,18 @@ textarea{
 }
 
 @media (max-width: 768px){
-    
+
+
     .falandosobremim{
-    margin: 0 0.5rem;
-    animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 2s; /* don't forget to set a duration! */
-    text-align: center;
-    padding: 40px;
-    margin-top: 10px;
-    font-family: 'Montserrat';
-    font-size: 20px;
-}
+        margin: 0 0.5rem;
+        animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s; /* don't forget to set a duration! */
+        text-align: center;
+        padding: 40px;
+        margin-top: 10px;
+        font-family: 'Montserrat';
+        font-size: 20px;
+        }
 
     .iconedasminhashabilidades{
         margin-left: 25%;
@@ -296,20 +297,20 @@ textarea{
         font-family: 'Montserrat';
         text-align: center;
         }
-    
+
     
     textarea{
-        border: 2px solid black;
-        width: 60%;
-        font-size: 20px;
-        border-radius: 8px;
-        margin: auto;
-        display: block;
-        min-height: 9rem;
-        resize: vertical;
+    border: 2px solid black;
+    width: 60%;
+    font-size: 20px;
+    border-radius: 8px;
+    margin: auto;
+    display: block;
+    min-height: 9rem;
+    resize: vertical;
 
 }
-
+    
     }
     @media (min-width: 768px) and (max-width: 1024px){
 
