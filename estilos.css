@@ -244,6 +244,17 @@ textarea{
 }
 
 @media (max-width: 768px){
+    
+    .falandosobremim{
+    margin: 0 0.5rem;
+    animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    text-align: center;
+    padding: 40px;
+    margin-top: 10px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
 
     .iconedasminhashabilidades{
         margin-left: 25%;
