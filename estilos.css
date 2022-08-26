@@ -388,3 +388,49 @@ textarea{
                 }
         
             }
+
+        @media (min-width: 720px ) and (max-width: 1280px){
+                .iconedasminhashabilidades{
+                    margin: 0 0.5rem;
+                    animation: fadeInDown; 
+                    animation-duration: 2s; 
+                    width: 200px;
+                    display: inline-block;
+                    margin-top: 4%;
+                    margin-left: 10%;
+                    margin-bottom: 5%;
+                    }
+                
+                .habilidades{
+                    font-size: 30px;
+                }
+                
+                .span{
+                    margin-left: 20px;
+                }
+                
+                .btn{
+                    margin-right: 21px;
+                }
+                
+                .curriculo{
+                    margin: 0 0.5rem;
+                    animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
+                    animation-duration: 2s; /* don't forget to set a duration! */
+                    margin: auto;
+                    display: block;
+                    box-shadow: -5px 10px 40px 12px rgba(0,0,0,0.6);
+                    border-radius: 10%;
+                    margin-top: 4%;
+                    margin-bottom: 5%;
+                    width: 300px;
+                }
+            
+                .gostoudoportfolio{
+                    margin-top: 8%;
+                    font-size: 25px;
+                    font-family: 'Montserrat';
+                    text-align: center;
+                    }
+            
+                }
