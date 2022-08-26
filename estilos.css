@@ -389,7 +389,8 @@ textarea{
         
             }
 
-        @media (min-width: 720px ) and (max-width: 1280px){
+
+            @media (min-width: 720px ) and (max-width: 1280px){
                 .iconedasminhashabilidades{
                     margin: 0 0.5rem;
                     animation: fadeInDown; 
@@ -435,7 +436,7 @@ textarea{
             
                 }
 
-         @media (min-width: 768px ) and (max-width: 1366px){
+                @media (min-width: 768px ) and (max-width: 1366px){
                     .iconedasminhashabilidades{
                         margin: 0 0.5rem;
                         animation: fadeInDown; 
@@ -480,3 +481,5 @@ textarea{
                         }
                 
                     }
+    
+            
